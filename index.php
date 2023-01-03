@@ -18,13 +18,17 @@
     <div class="toast-container position-fixed bottom-0 end-0 p-3">
     <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
         <div class="toast-header">
-        <img src="" class="rounded me-2" alt="">
-        <strong class="me-auto">Docker php Hello World</strong>
+        <div class="rounded me-1 p-2 bg-primary" style="width: 20px;"></div>
+        <strong class="me-auto">Hello World by
+        <a class="text" href="https://github.com/SunnyBhagwat35" target="_blank">SunnyBhagwat</a>    
+        </strong>
         <small><?php echo date("Y"); ?></small>
         <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
         </div>
         <div class="toast-body">
-        Hello, world! This is a toast message.
+            To get Github link 
+            <a href="https://github.com/SunnyBhagwat35/docker-php-hello-world" target="_blank">
+            Click Here</a>
         </div>
     </div>
     </div>
